@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loja de Carmed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+
+  <div class="carrossel-container">
+    <div class="carrossel">
+      <img src="imgs/banner1.jpg" alt="Banner 1">
+      <img src="imgs/banner2.jpg" alt="Banner 2">
+      <img src="imgs/banner3.jpg" alt="Banner 3">
+    </div>
+  
+    <button class="seta seta-anterior">&#10094;</button>
+    <button class="seta seta-proximo">&#10095;</button>
+  </div>
+
+
+  <h1>Catálogo de Produtos</h1>
+
+  <div class="produtos-container">
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed agua de coco.png" alt="Carmed Água de Coco"></div>
+      <div class="descricao">Carmed Água de Coco</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed açai.png" alt="Carmed Açaí Oakberry"></div>
+      <div class="descricao">Carmed Açaí Oakberry</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed banana.png" alt="Carmed Fini Bananas"></div>
+      <div class="descricao">Carmed Fini Bananas</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed dentaduras.png" alt="Carmed Fini Dentaduras"></div>
+      <div class="descricao">Carmed Fini Dentaduras</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed beijos.png" alt="Carmed Fini Beijos"></div>
+      <div class="descricao">Carmed Fini Beijos</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed minhocas.png" alt="Carmed Fini Minhocas"></div>
+      <div class="descricao">Carmed Fini Minhocas</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed amora.png" alt="Carmed Fini Amora"></div>
+      <div class="descricao">Carmed Fini Amora</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed amora intensa.png" alt="Carmed Fini Amora Intensa"></div>
+      <div class="descricao">Carmed Fini Amora Intensa</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed brigadeiro.png" alt="Carmed Brigadeiro Ana Castela"></div>
+      <div class="descricao">Carmed Brigadeiro Ana Castela</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+  
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed beijinho.png" alt="Carmed BFF Beijinho"></div>
+      <div class="descricao">Carmed BFF Beijinho</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed maça do amor.png" alt="Carmed Maçã do Amor"></div>
+      <div class="descricao">Carmed Maçã do Amor</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    
+    <div class="produto">
+      <div class="imagem-produto"><img src="imgs/carmed hello kitty.png" alt="Carmed Hello Kitty"></div>
+      <div class="descricao">Carmed Hello Kitty</div>
+      <div class="preco">R$ 20,00</div>
+      <button class="botao-carrinho">Adicionar ao Carrinho</button>
+    </div>
+  </div>
+
+  
+  <button id="btn-carrinho" aria-label="Abrir carrinho">
+    🛒
+    <span id="contador-quantidade">0</span>
+  </button>
+
+  
+  <aside id="carrinho-lateral" aria-label="Carrinho de compras">
+    <h2>Seu Carrinho</h2>
+    <div id="itens-carrinho"></div>
+    <div id="total-carrinho">Total: R$ 0,00</div>
+    <button id="btn-finalizar">Finalizar Compra</button>
+  </aside>
+  <script src="script.js"></script>
+
+
+
+
+
+
+  <script src="script.js"></script>      <!-- Carrinho -->
+  <script src="carrossel.js"></script>   <!-- Carrossel -->
+
+</body>
+</html>
+
+
+
